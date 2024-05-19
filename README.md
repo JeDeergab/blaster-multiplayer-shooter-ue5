@@ -1,4 +1,4 @@
-# blaster-unreal5-00
+# Multiplayer Shooter Courses (Blaster)
 
 Unreal Engine Version 5.2
 
