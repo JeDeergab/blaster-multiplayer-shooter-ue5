@@ -23,8 +23,7 @@ ABlasterCharacter::ABlasterCharacter()
 	CameraBoom->bUsePawnControlRotation = true;
 	
 	CloseUpCameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CloseUpCameraBoom"));
-	CloseUpCameraBoom->SetupAttachment(GetMesh(), FName("head"));
-	CloseUpCameraBoom->TargetArmLength = 10.f;
+	CloseUpCameraBoom->TargetArmLength = 300.f;
 	CloseUpCameraBoom->CameraLagSpeed = 10.f;
 	CloseUpCameraBoom->bEnableCameraLag = true;
 	CloseUpCameraBoom->bUsePawnControlRotation = false;
@@ -36,7 +35,7 @@ ABlasterCharacter::ABlasterCharacter()
 
 	// Initialize CloseUpCamera
 	CloseUpCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("CloseUpCamera"));
-	CloseUpCamera->SetupAttachment(CloseUpCameraBoom);
+	CloseUpCamera->SetupAttachment(GetMesh(), FName("head"));
 	CloseUpCamera->bUsePawnControlRotation = true;
 
 	BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxCollision"));
