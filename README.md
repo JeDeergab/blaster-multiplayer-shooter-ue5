@@ -10,4 +10,4 @@ I added CloseUpCameraBoom and CloseUpCamera for the BlasterCharacter Component.
 
 ## All are YouTube videos from this project.
 
-[Video Title](https://www.youtube.com/watch?v=VSh71MzSxkU)
+[Switch Third-to-First Person](https://youtu.be/1IyJ6ZcErdI)
