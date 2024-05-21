@@ -4,6 +4,7 @@ This repository contains project files from Stephen Ullibary's Multiplayer Shoot
 ## The Project
 - Unreal Engine Version 5.2xx
 - '/contents' is omitted out I'm still using the same assets from the course.
+- Source: https://github.com/DruidMech/MultiplayerCourseBlasterGame
 
 ## [Added #1] Switching from third-person to first-person
 - I added 'CloseUpCameraBoom' and 'CloseUpCamera' for the BlasterCharacter Component.
