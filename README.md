@@ -6,7 +6,7 @@ This repository contains project files from Stephen Ullibary's Multiplayer Shoot
 - '/contents' is omitted out I'm still using the same assets from the course.
 
 ## [Added #1] Switching from third-person to first-person
-- I added CloseUpCameraBoom and CloseUpCamera for the BlasterCharacter Component.
+- I added 'CloseUpCameraBoom' and 'CloseUpCamera' for the BlasterCharacter Component.
 
 ## All are YouTube videos from this project.
 - [Switch Third-to-First Person](https://youtu.be/1IyJ6ZcErdI)
