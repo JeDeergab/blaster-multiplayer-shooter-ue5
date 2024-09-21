@@ -9,7 +9,7 @@ This repository contains project files from Stephen Ullibary's Multiplayer Shoot
 ### [Added #1] Switching from third-person to first-person
 - I added 'CloseUpCameraBoom' and 'CloseUpCamera' for the BlasterCharacter Component.
 
-### [Added #2] Packaging errors
+### [Added #2] Packaging issues 01
 - If you read the error log and something like "InterchangeResult.h" appeared my best suggestion is to comment it out.
 - [Possible location] BlasterAnimInstance component its it should be an added dependecies.
 - [Directory] \blaster\Source\Blaster\Character
