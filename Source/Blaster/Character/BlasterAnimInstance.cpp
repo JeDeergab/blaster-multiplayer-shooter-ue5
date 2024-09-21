@@ -4,7 +4,7 @@
 #include "BlasterAnimInstance.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "BlasterCharacter.h"
-#include "InterchangeResult.h"
+// #include "InterchangeResult.h" Causes Packaging issues
 #include "Blaster/Weapon/Weapon.h"
 #include "Widgets/Text/ISlateEditableTextWidget.h"
 
