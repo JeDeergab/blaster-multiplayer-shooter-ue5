@@ -17,6 +17,10 @@ ABlasterCharacter::ABlasterCharacter()
 
 	GetMesh()->SetVisibility(true);
 
+	// Construct the current weapon
+	// We will set the settings inside FirstPersonView() and ThirdPersonView()
+	CurrentWeapon = CreateDefaultSubobject<AWeapon>(TEXT("CurrentWeapon"));
+
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(GetMesh());
 	CameraBoom->TargetArmLength = 600.f;
@@ -176,6 +180,8 @@ void ABlasterCharacter::FirstPersonView()
 		// Assuming you want to switch to CloseUpCamera on any overlap, you can add checks here if needed
 		FollowCamera->SetActive(false);
 		CloseUpCamera->SetActive(true);
+		CurrentWeapon->GetWeaponMesh()->SetVisibility(true); // Sets the visibility for the weapon
+		CurrentWeapon->GetWeaponMesh()->SetIsReplicated(true); // Sets the replication for the weapon
 	}
 	// GetMesh()->SetVisibility(false);
 	// TODO: GetMesh() is not set to replicated must be in Combat Component
@@ -187,6 +193,8 @@ void ABlasterCharacter::ThirdPersonView()
 		// Assuming you want to switch to CloseUpCamera on any overlap, you can add checks here if needed
 		FollowCamera->SetActive(true);
 		CloseUpCamera->SetActive(false);
+		CurrentWeapon->GetWeaponMesh()->SetVisibility(false); // Sets the visibility for the weapon
+		CurrentWeapon->GetWeaponMesh()->SetIsReplicated(true); // Sets the replication for the weapon
 	}
 	// GetMesh()->SetVisibility(true);
 	// TODO: GetMesh() is not set to replicated must be in Combat Component
