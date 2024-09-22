@@ -7,6 +7,7 @@ This repository contains project files from Stephen Ullibary's Multiplayer Shoot
 - Source: https://github.com/DruidMech/MultiplayerCourseBlasterGame
 
 ### Switching from 3rd person to 1st person view
+- BlastCharacter Component
 - Added a way for visibility to be enabled / disable
 - Added a weapon for weapons component to be replicated
 
