@@ -6,13 +6,10 @@ This repository contains project files from Stephen Ullibary's Multiplayer Shoot
 - '/contents' is omitted out I'm still using the same assets from the course.
 - Source: https://github.com/DruidMech/MultiplayerCourseBlasterGame
 
-### [Added #1] Switching from third-person to first-person
-- I added 'CloseUpCameraBoom' and 'CloseUpCamera' for the BlasterCharacter Component.
+### Switching from 3rd person to 1st person view
+- Added a way for visibility to be enabled / disable
+- Added a weapon for weapons component to be replicated
 
-### [Added #2] Packaging issues 01
-- If you read the error log and something like "InterchangeResult.h" appeared my best suggestion is to comment it out.
-- [Possible location] BlasterAnimInstance component its it should be an added dependecies.
-- [Directory] \blaster\Source\Blaster\Character
 
 ### YouTube videos
 - [Switch Third-to-First Person](https://youtu.be/1IyJ6ZcErdI)
