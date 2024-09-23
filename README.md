@@ -1,10 +1,3 @@
-# Switching from third to first person 
-The changes on this branch allows you to switch from third to first person while also allowing weapons to be replicated in-game.
-
-### The Project
-- Unreal Engine Version 5.2xx
-
-### Create a reference of the weapon component
-- BlastCharacter Component
-- Added a way for visibility to be enabled / disable
-- Added a weapon for weapons component to be replicated
+# The changes on branch_01
+1. Added references for the current weapon on BlasterCharacter comp
+2. Be able to access settings such as visibility and replication.
