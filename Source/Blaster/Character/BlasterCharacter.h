@@ -91,7 +91,7 @@ private:
 	class USkeletalMeshComponent * SkeletalMeshComponent;
 
 	// Create reference for weapon component.
-	UPROPERTY(VisibleAnywhere, Category = "Weapon")
+	UPROPERTY(VisibleAnywhere)
 	class AWeapon* CurrentWeapon;
 	
 public:
